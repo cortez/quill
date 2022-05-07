@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "space-grotesk";
+	src: url("/space-grotesk/SpaceGrotesk-Regular.otf");
+}
+
+* {
+	box-sizing: border-box;
+	font-family: 'space-grotesk';
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 1fr min-content;
+}
+
+textarea {
+	border: 0;
+	resize: none;
+	padding: 0.5em;
+	font-size: 110%;
+	line-height: 1.5;
+}
+
+textarea:focus { 
+    outline: none !important;
+}
+
+textarea[readonly] {
+	background: #eeeeee;
+}
