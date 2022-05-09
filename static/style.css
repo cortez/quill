@@ -35,3 +35,7 @@ textarea:focus {
 textarea[readonly] {
 	background: #eeeeee;
 }
+
+::placeholder {
+	color: #dddddd;
+}
