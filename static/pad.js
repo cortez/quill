@@ -14,7 +14,7 @@ var old = el.value;
 var localChanges = [];
 var stagedChanges = [];
 
-document.title = location.hash.slice(1) + ' - Note';
+document.title = location.hash.slice(1) + ' | Note';
 
 var sendChanges = utils.throttled(function() {
 	if (stagedChanges.length) {
