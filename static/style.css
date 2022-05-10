@@ -32,9 +32,9 @@ textarea:focus {
     outline: none !important;
 }
 
-textarea[readonly] {
+/* textarea[readonly] {
 	background: #eeeeee;
-}
+} */
 
 ::placeholder {
 	color: #bbbbbb;
