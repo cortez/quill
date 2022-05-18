@@ -12,12 +12,10 @@ var _apply = function(text, [pos, before, after], selection) {
 };
 
 export var apply = function(text, [start, end, before, after], selection) {
-	// try exact match
 	if (text.slice(start).startsWith(before)) {
 		return _apply(text, [start, before, after], selection);
 	}
 
-	// try exact match in similar position
 	var best = -1;
 	var bestDist = Infinity;
 	for (var i = text.indexOf(before); i !== -1; i = text.indexOf(before, i + 1)) {
@@ -32,8 +30,6 @@ export var apply = function(text, [start, end, before, after], selection) {
 	if (best !== -1) {
 		return _apply(text, [best, before, after], selection);
 	}
-
-	// otherwise, ignore the change
 	return text;
 };
 
@@ -56,13 +52,11 @@ export var diff = function(text1, text2, ctx) {
 
 export var merge = function([start1, end1, before1, after1], [start2, end2, before2, after2]) {
 	if (start1 + after1.length + end1 === start2 + before2.length + end2) {
-		// merge subsequent inserts
 		if (start2 >= start1 && after1.slice(start2 - start1).startsWith(before2)) {
 			var after = _apply(after1, [start2 - start1, before2, after2]);
 			return [[start1, end1, before1, after]];
 		}
 
-		// merge subsequent deletes (inverse insert)
 		if (start1 >= start2 && before2.slice(start1 - start2).startsWith(after1)) {
 			var before = _apply(before2, [start1 - start2, after1, before1]);
 			return [[start2, end2, before, after2]];
