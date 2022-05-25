@@ -3,6 +3,11 @@
 	src: url("/space-grotesk/SpaceGrotesk-Regular.otf");
 }
 
+@font-face {
+	font-family: "space-grotesk-medium";
+	src: url("/space-grotesk/SpaceGrotesk-Medium.otf");
+}
+
 * {
 	box-sizing: border-box;
 	font-family: 'space-grotesk';
@@ -37,5 +42,6 @@ textarea:focus {
 } */
 
 ::placeholder {
-	color: #bbbbbb;
+	font-family: 'space-grotesk-medium';
+	color: #BFCC94;
 }
