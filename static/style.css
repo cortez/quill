@@ -10,8 +10,8 @@
 
 * {
 	box-sizing: border-box;
-	font-family: 'space-grotesk';
-        background: #F0F4EF;
+	font-family: 'SF Mono', SFMono-Regular, ui-monospace;
+/*      background: #F0F4EF; */
 }
 
 html,
@@ -43,6 +43,7 @@ textarea:focus {
 } */
 
 ::placeholder {
-	font-family: 'space-grotesk-medium';
-	color: #BFCC94;
+	font-weight: 500;
+	color: #34C759;
+/* 	color: #BFCC94; */
 }
