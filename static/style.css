@@ -1,16 +1,11 @@
 @font-face {
-	font-family: "space-grotesk";
-	src: url("/space-grotesk/SpaceGrotesk-Regular.otf");
-}
-
-@font-face {
-	font-family: "space-grotesk-medium";
-	src: url("/space-grotesk/SpaceGrotesk-Medium.otf");
+	font-family: "avenue-x";
+	src: url("AvenueX.otf");
 }
 
 * {
 	box-sizing: border-box;
-	font-family: 'SF Mono', SFMono-Regular, ui-monospace;
+	font-family: "avenue-x";
 /*      background: #F0F4EF; */
 }
 
@@ -30,8 +25,8 @@ textarea {
 	border: 0;
 	resize: none;
 	padding: 0.5em;
-	font-size: 110%;
-	line-height: 1.5;
+	font-size: 15px
+	line-height: 1.25;
 }
 
 textarea:focus { 
