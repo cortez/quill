@@ -1,11 +1,11 @@
 @font-face {
-	font-family: "avenue-x";
-	src: url("AvenueX.otf");
+	font-family: "consolas";
+	src: url("consolas.ttf");
 }
 
 * {
 	box-sizing: border-box;
-	font-family: "avenue-x";
+	font-family: "consolas";
 /*      background: #F0F4EF; */
 }
 
