@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "consolas";
-	src: url("consolas.ttf");
+	src: url("/consolas.ttf");
 }
 
 * {
