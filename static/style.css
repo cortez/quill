@@ -6,7 +6,22 @@
 * {
 	box-sizing: border-box;
 	font-family: "Consolas", monospace;
-/*      background: #F0F4EF; */
+	color: var(--font);
+	background-color: var(--bg);
+}
+
+:root {
+	--font: #131513;
+	--bg: #f9f9f9;
+	--placeholder: #D1D1D6;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--font: #AEAEB2;
+		--bg: #1C1C1E;
+		--placeholder: #48484A;
+	}
 }
 
 html,
@@ -38,6 +53,5 @@ textarea:focus {
 } */
 
 ::placeholder {
-	color: #D1D1D6;
-/* 	color: #BFCC94; */
+	color: var(--placeholder);
 }
