@@ -1,21 +1,18 @@
 @font-face {
 	font-family: "ibm-mono";
-	src: url("/IBMPlexMono-Text.otf");
+	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Text.otf");
 }
-
 * {
 	box-sizing: border-box;
 	font-family: "ibm-mono", monospace;
 	color: var(--font);
 	background-color: var(--bg);
 }
-
 :root {
 	--font: #131513;
 	--bg: #f9f9f9;
 	--placeholder: #D1D1D6;
 }
-
 @media (prefers-color-scheme: dark) {
 	:root {
 		--font: #DADAE0;
@@ -23,19 +20,15 @@
 		--placeholder: #48484A;
 	}
 }
-
-html,
-body {
+html, body {
 	margin: 0;
 	padding: 0;
 }
-
 body {
 	height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr min-content;
 }
-
 textarea {
 	border: 0;
 	resize: none;
@@ -43,7 +36,6 @@ textarea {
 	font-size: 16px;
 	line-height: 1.25;
 }
-
 textarea:focus { 
     outline: none !important;
 }
