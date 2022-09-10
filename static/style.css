@@ -1,6 +1,12 @@
 @font-face {
 	font-family: "ibm-mono";
 	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Text.otf");
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ibm-mono";
+	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Medium.otf");
+	font-weight: bold;
 }
 * {
 	box-sizing: border-box;
@@ -28,6 +34,7 @@ body {
 	height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr min-content;
+	font-weight: normal;
 }
 textarea {
 	border: 0;
@@ -46,4 +53,5 @@ textarea:focus {
 
 ::placeholder {
 	color: var(--placeholder);
+	font-weight: bold;
 }
