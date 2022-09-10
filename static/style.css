@@ -1,16 +1,16 @@
 @font-face {
-	font-family: "ibm-mono";
+	font-family: "ibm-plex-mono";
 	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Text.otf");
 	font-weight: normal;
 }
 @font-face {
-	font-family: "ibm-mono";
+	font-family: "ibm-plex-mono";
 	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Medium.otf");
 	font-weight: bold;
 }
 * {
 	box-sizing: border-box;
-	font-family: "ibm-mono", monospace;
+	font-family: "ibm-plex-mono";
 	color: var(--font);
 	background-color: var(--bg);
 }
