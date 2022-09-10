@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "ibm-plex-mono";
-	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Text.otf");
+	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Medium.otf");
 	font-weight: 400;
 }
 @font-face {
 	font-family: "ibm-plex-mono";
-	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Medium.otf");
+	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Text.otf");
 	font-weight: 500;
 }
 * {
