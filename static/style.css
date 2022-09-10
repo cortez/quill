@@ -1,12 +1,12 @@
 @font-face {
 	font-family: "ibm-plex-mono";
 	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Text.otf");
-	font-weight: normal;
+	font-weight: 400;
 }
 @font-face {
 	font-family: "ibm-plex-mono";
 	src: url("https://cortez.link/fonts/IBM-Plex-Mono/IBMPlexMono-Medium.otf");
-	font-weight: bold;
+	font-weight: 500;
 }
 * {
 	box-sizing: border-box;
@@ -34,7 +34,7 @@ body {
 	height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr min-content;
-	font-weight: normal;
+	font-weight: 400;
 }
 textarea {
 	border: 0;
@@ -50,8 +50,7 @@ textarea:focus {
 /* textarea[readonly] {
 	background: #eeeeee;
 } */
-
 ::placeholder {
 	color: var(--placeholder);
-	font-weight: bold;
+	font-weight: 500;
 }
