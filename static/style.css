@@ -22,7 +22,7 @@
 @media (prefers-color-scheme: dark) {
 	:root {
 		--font: #DADAE0;
-		--bg: #FBFBFD;
+		--bg: #262626;
 		--placeholder: #48484A;
 	}
 }
