@@ -11,6 +11,7 @@
 * {
 	box-sizing: border-box;
 	font-family: "ibm-plex-mono";
+	font-size: 14px;
 	color: var(--font);
 	background-color: var(--bg);
 }
