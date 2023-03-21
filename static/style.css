@@ -9,7 +9,7 @@
 :root {
 	--font: #131513;
 	--bg: #f9f9f9;
-	--placeholder: #D1D1D6;
+	--placeholder: #CBCBD1;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -26,7 +26,6 @@ body {
 	height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr min-content;
-	font-weight: 400;
 }
 textarea {
 	border: 0;
@@ -44,5 +43,4 @@ textarea:focus {
 } */
 ::placeholder {
 	color: var(--placeholder);
-	font-weight: 500;
 }
