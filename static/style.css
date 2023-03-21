@@ -1,6 +1,16 @@
+@font-face {
+	font-family: "ibm-plex-mono";
+	src: url("/IBM-Plex-Mono/IBMPlexMono-Regular.otf");
+	font-weight: 400;
+}
+@font-face {
+	font-family: "ibm-plex-mono";
+	src: url("/IBM-Plex-Mono/IBMPlexMono-Text.otf");
+	font-weight: 500;
+}
 * {
 	box-sizing: border-box;
-    	font-family: "Andale Mono", AndaleMono, monospace;
+	font-family: "ibm-plex-mono";
 	color: var(--font);
 	background-color: var(--bg);
 	-webkit-font-smoothing: antialiased;
@@ -9,7 +19,7 @@
 :root {
 	--font: #131513;
 	--bg: #f9f9f9;
-	--placeholder: #CBCBD1;
+	--placeholder: #D1D1D6;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
@@ -26,6 +36,7 @@ body {
 	height: 100vh;
 	display: grid;
 	grid-template-rows: 1fr min-content;
+	font-weight: 400;
 }
 textarea {
 	border: 0;
@@ -43,4 +54,5 @@ textarea:focus {
 } */
 ::placeholder {
 	color: var(--placeholder);
+	font-weight: 500;
 }
