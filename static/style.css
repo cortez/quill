@@ -10,7 +10,7 @@
 }
 * {
 	box-sizing: border-box;
-	font-family: "ibm-plex-mono";
+	font-family: "ibm-plex-mono", "Andale Mono", AndaleMono, monospace;
 	color: var(--font);
 	background-color: var(--bg);
 	-webkit-font-smoothing: antialiased;
