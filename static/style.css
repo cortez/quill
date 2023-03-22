@@ -19,13 +19,13 @@
 :root {
 	--font: #131513;
 	--bg: #f9f9f9;
-	--placeholder: #D1D1D6;
+	--placeholder: #6F6F71;
 }
 @media (prefers-color-scheme: dark) {
 	:root {
 		--font: #DADAE0;
 		--bg: #161616;
-		--placeholder: #48484A;
+		--placeholder: #7A7D7E;
 	}
 }
 html, body {
